@@ -13,3 +13,11 @@ let eta = prompt("quanti anni hai?");
 console.log("età", eta);
 let prezzoBiglietto = kmDaFare * "0.21";
 console.log("prezzo biglietto", prezzoBiglietto , "euro");
+if (eta < 18) {
+    let sconto1 = (prezzoBiglietto * 0.2);
+    console.log("sconto minorenni ", sconto1);
+}
+else if (eta > 65) {
+    let sconto
+    
+}
