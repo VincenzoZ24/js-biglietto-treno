@@ -15,9 +15,12 @@ let prezzoBiglietto = kmDaFare * "0.21";
 console.log("prezzo biglietto", prezzoBiglietto , "euro");
 if (eta < 18) {
     let sconto1 = (prezzoBiglietto * 0.2);
-    console.log("sconto minorenni ", sconto1);
+    let prezzoScontato1 = (prezzoBiglietto - sconto1);
+    console.log("sconto minorenni ", prezzoScontato1);
 }
 else if (eta > 65) {
-    let sconto
+    let sconto2 = (prezzoBiglietto * 0.4);
+    let prezzoScontato2 = (prezzoBiglietto - sconto2);
+    console.log("sconto over 65", prezzoScontato2);
     
 }
